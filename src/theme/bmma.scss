@@ -1,0 +1,35 @@
+// Color palette
+$black:           #000000; // Headings, standard text.
+$gray-darker:     $black; // Text (emphasis-detail), placeholder, background.
+$gray-dark:       $black; // Borders (never text).
+$gray:            #dddddd;
+$gray-light:      #eeeeee; // Background.
+$gray-lighter:    #f5f5f5;
+$white:           #ffffff; // Background, reversed text.
+
+$blue:            #0064d2; // Link, background.
+$turquoise:       #007982; // Accent.
+$green:           #5e8100; // Accent.
+$red:             #cb3d4d;
+
+$orange:          #ffff00; // Accent (never text).  // Yellow
+$yellow:          #f98012; // Accent (never text). // Orange
+
+$core-color:      $orange;
+
+
+ion-app.app-root.md .button-md-light {
+	color: $black !important;
+}
+
+ion-app.app-root ion-select {
+	color: $black !important;
+	.select-icon .select-icon-inner {
+		color: $black !important;
+	}
+}
+
+
+.item-md p {
+	color: $black !important;
+}
