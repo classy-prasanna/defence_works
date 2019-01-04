@@ -7,10 +7,11 @@ $gray-light:      #eeeeee; // Background.
 $gray-lighter:    #f5f5f5;
 $white:           #ffffff; // Background, reversed text.
 
-$blue:            #0064d2; // Link, background.
+$blue:            #62a8ea; // Link, background.
 $turquoise:       #007982; // Accent.
 $green:           #5e8100; // Accent.
 $red:             #cb3d4d;
+
 
 $orange:          #ffff00; // Accent (never text).  // Yellow
 $yellow:          #f98012; // Accent (never text). // Orange
@@ -19,13 +20,36 @@ $core-color:      $orange;
 
 
 ion-app.app-root.md .button-md-light {
-	color: $black !important;
+	color: $blue !important;
 }
 
+span.button.item-button  {
+	color: $blue !important;
+}
+
+ion-icon.item-icon, .ion-md-cloud-download, .ion-md-person, .ion-md-arrow-dropleft, .ion-md-folder, .ion-md-stats  {
+	color: $blue !important;
+}
+
+.scroll-content, .core-loading-content {
+	.ion-md-calendar,  .ion-md-chatbubbles  {	
+		color: $blue !important;
+	}
+
+	.ion-md-notifications {
+		color: $blue !important;
+	}
+}
+
+page-core-courses-my-overview .core-tabs-bar {
+	display: none !important;
+}
+
+
 ion-app.app-root ion-select {
-	color: $black !important;
+	color: $blue !important;
 	.select-icon .select-icon-inner {
-		color: $black !important;
+		color: $blue !important;
 	}
 }
 

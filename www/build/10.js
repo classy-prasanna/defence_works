@@ -100,7 +100,7 @@ var CoreUserParticipantsPage = /** @class */ (function () {
     }
     CoreUserParticipantsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-user-participants',template:/*ion-inline-start:"D:\xampp\htdocs\mobile\yelm\src\core\user\pages\participants\participants.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.user.participants\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<core-user-participants [courseId]="courseId"></core-user-participants>'/*ion-inline-end:"D:\xampp\htdocs\mobile\yelm\src\core\user\pages\participants\participants.html"*/,
+            selector: 'page-core-user-participants',template:/*ion-inline-start:"D:\xampp\htdocs\mobile\new\defence_works\src\core\user\pages\participants\participants.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.user.participants\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<core-user-participants [courseId]="courseId"></core-user-participants>'/*ion-inline-end:"D:\xampp\htdocs\mobile\new\defence_works\src\core\user\pages\participants\participants.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]])
     ], CoreUserParticipantsPage);

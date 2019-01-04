@@ -113,11 +113,13 @@ export class CoreSettingsDelegate extends CoreDelegate {
         for (const name in this.enabledHandlers) {
             const handler = <CoreSettingsHandler> this.enabledHandlers[name],
                 data = handler.getDisplayData();
-
-            handlersData.push({
-                data: data,
-                priority: handler.priority
-            });
+                console.log(handler);
+            if (data.page != 'AddonMessagesSettingsPage') {
+                handlersData.push({
+                    data: data,
+                    priority: handler.priority
+                });
+            }
         }
 
         // Sort them by priority.
@@ -126,7 +128,7 @@ export class CoreSettingsDelegate extends CoreDelegate {
         });
 
         // Return only the display data.
-        this.siteHandlers = handlersData.map((item) => {
+        this.siteHandlers = handlersData.map((item) => {           
             return item.data;
         });
     }

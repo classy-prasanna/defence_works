@@ -103,7 +103,7 @@ var CoreGradesCoursePage = /** @class */ (function () {
     }
     CoreGradesCoursePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-grades-course',template:/*ion-inline-start:"D:\xampp\htdocs\mobile\yelm\src\core\grades\pages\course\course.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.grades.grades\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<core-grades-course class="core-avoid-header" [courseId]="courseId" [userId]="userId"></core-grades-course>\n\n'/*ion-inline-end:"D:\xampp\htdocs\mobile\yelm\src\core\grades\pages\course\course.html"*/,
+            selector: 'page-core-grades-course',template:/*ion-inline-start:"D:\xampp\htdocs\mobile\new\defence_works\src\core\grades\pages\course\course.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.grades.grades\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<core-grades-course class="core-avoid-header" [courseId]="courseId" [userId]="userId"></core-grades-course>\n\n'/*ion-inline-end:"D:\xampp\htdocs\mobile\new\defence_works\src\core\grades\pages\course\course.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */]])
     ], CoreGradesCoursePage);

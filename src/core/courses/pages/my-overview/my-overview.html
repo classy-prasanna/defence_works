@@ -74,7 +74,7 @@
         </core-tab>
 
         <!-- Timeline tab. -->
-        <core-tab [title]="'core.courses.timeline' | translate" (ionSelect)="tabChanged('timeline')">
+        <!-- <core-tab [title]="'core.courses.timeline' | translate" (ionSelect)="tabChanged('timeline')">
             <ng-template>
                 <ion-content>
                     <ion-refresher [enabled]="timeline.loaded || timelineCourses.loaded || courses.loaded" (ionRefresh)="refreshMyOverview($event)">
@@ -104,6 +104,6 @@
                     </core-loading>
                 </ion-content>
             </ng-template>
-        </core-tab>
+        </core-tab> -->
     </core-tabs>
 </ion-content>

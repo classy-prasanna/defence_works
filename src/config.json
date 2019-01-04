@@ -1,6 +1,6 @@
 {
     "app_id" : "com.moodle.defenceworks",
-    "appname": "The Defence Works",
+    "appname": "Defence Works",
     "desktopappname": "Defence Works",
     "versioncode" : 3520,
     "versionname" : "1.0",
@@ -16,5 +16,5 @@
     "multisitesdisplay": "",
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
-    "privacypolicy": "https://moodle.org/mod/page/view.php?id=8148"
+    "privacypolicy": "https://hub.thedefenceworks.com/privacypolicy.html"
 }

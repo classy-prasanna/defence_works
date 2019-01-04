@@ -34,9 +34,11 @@ export class CoreSiteHomeEnrolledCourseListComponent implements OnInit {
         if (this.coursesProvider.isMyCoursesDisabledInSite()) {
             this.show = false;
         } else {
+            
             this.coursesProvider.getUserCourses().then((courses) => {
                 this.show = courses.length > 0;
             });
+            this.show = false;
         }
     }
 }

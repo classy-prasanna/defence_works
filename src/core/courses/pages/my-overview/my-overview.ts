@@ -118,8 +118,8 @@ export class CoreCoursesMyOverviewPage implements OnDestroy {
             const site = this.sitesProvider.getCurrentSite(),
                 displaySiteHome = site.getInfo() && site.getInfo().userhomepage === 0;
 
-            this.siteHomeEnabled = enabled;
-            this.firstSelectedTab = displaySiteHome ? 0 : 1;
+            this.siteHomeEnabled = false;//enabled;
+            this.firstSelectedTab = 0;//displaySiteHome ? 0 : 1;
             this.tabsReady = true;
         });
     }
@@ -399,6 +399,11 @@ export class CoreCoursesMyOverviewPage implements OnDestroy {
                 }
                 break;
             default:
+                if (!this.courses.loaded) {
+                    this.fetchMyOverviewCourses().finally(() => {
+                        this.courses.loaded = true;
+                    });
+                }
         }
     }
 

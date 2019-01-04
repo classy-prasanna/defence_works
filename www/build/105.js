@@ -101,7 +101,7 @@ var AddonCourseCompletionReportPage = /** @class */ (function () {
     }
     AddonCourseCompletionReportPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-course-completion-report',template:/*ion-inline-start:"D:\xampp\htdocs\mobile\yelm\src\addon\coursecompletion\pages\report\report.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.coursecompletion.coursecompletion\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<addon-course-completion-report class="core-avoid-header" [courseId]="courseId" [userId]="userId"></addon-course-completion-report>\n\n'/*ion-inline-end:"D:\xampp\htdocs\mobile\yelm\src\addon\coursecompletion\pages\report\report.html"*/,
+            selector: 'page-addon-course-completion-report',template:/*ion-inline-start:"D:\xampp\htdocs\mobile\new\defence_works\src\addon\coursecompletion\pages\report\report.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.coursecompletion.coursecompletion\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<addon-course-completion-report class="core-avoid-header" [courseId]="courseId" [userId]="userId"></addon-course-completion-report>\n\n'/*ion-inline-end:"D:\xampp\htdocs\mobile\new\defence_works\src\addon\coursecompletion\pages\report\report.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]])
     ], AddonCourseCompletionReportPage);
