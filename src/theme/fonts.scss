@@ -172,5 +172,6 @@
   font-family: "raleway";
   font-style: normal;
   font-weight: normal;
-  src: local("ralewayregular"), local("ralewayregular"), url("#{$font-path}/raleway/raleway-regular-webfont.woff") format("woff"), url("#{$font-path}/raleway/Raleway-Regular.ttf") format("truetype"), url("#{$font-path}/raleway/raleway-regular-webfont.eot") format("embeded-opentype");
+  src: local("ralewayregular"), local("ralewayregular"), url("#{$font-path}/raleway/raleway-regular-webfont.woff") format("woff");
+  src: local("ralewayregular"), local("ralewayregular"), url("#{$font-path}/raleway/Raleway-Regular.ttf") format("truetype"), url("#{$font-path}/raleway/raleway-regular-webfont.eot") format("embeded-opentype");
 }
