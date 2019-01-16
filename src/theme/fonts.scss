@@ -124,5 +124,5 @@
   font-style: normal;
   font-weight: normal;
   src: local("ralewayregular"), local("ralewayregular"), url("#{$font-path}/raleway/raleway-regular-webfont.woff") format("woff");
-  src: local("Raleway-Regular"), local("ralewayregular"), url("#{$font-path}/raleway/Raleway-Regular.ttf") format("truetype"), url("#{$font-path}/raleway/raleway-regular-webfont.eot") format("embeded-opentype");
+  src: local("Raleway-Regular"), local("ralewayregular"), url("#{$font-path}/raleway/Raleway-Regular.ttf") format("truetype"), url("#{$font-path}/raleway/raleway-regular-webfont.eot") format("embeded-opentype"), url("#{$font-path}/raleway/Raleway-Regular.otf") format("opentype"), url("#{$font-path}/raleway/raleway-regular-webfont.svg") format("svg");
 }
