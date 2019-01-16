@@ -3922,8 +3922,8 @@ ion-icon::before {
   font-family: "raleway";
   font-style: normal;
   font-weight: normal;
-  src: local("ralewayregular"), local("ralewayregular"), url("../assets/fonts/raleway/raleway-regular-webfont.woff") format("woff");
-  src: local("ralewayregular"), local("ralewayregular"), url("../assets/fonts/raleway/Raleway-Regular.ttf") format("truetype"), url("../assets/fonts/raleway/raleway-regular-webfont.eot") format("embeded-opentype"), url("../assets/fonts/raleway/Raleway-Regular.otf") format("opentype"), url("../assets/fonts/raleway/raleway-regular-webfont.svg") format("svg");
+  src: local("raleway"), local("ralewayregular"), url("../assets/fonts/raleway/raleway-regular-webfont.woff") format("woff");
+  src: local("raleway"), local("ralewayregular"), url("../assets/fonts/raleway/Raleway-Regular.ttf") format("truetype"), url("../assets/fonts/raleway/raleway-regular-webfont.eot") format("embeded-opentype"), url("../assets/fonts/raleway/Raleway-Regular.otf") format("opentype"), url("../assets/fonts/raleway/raleway-regular-webfont.svg") format("svg");
 }
 
 /*!
