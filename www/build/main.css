@@ -3918,60 +3918,11 @@ ion-icon::before {
   src: local("Noto Sans BoldItalic"), local("NotoSans-BoldItalic"), url("../assets/fonts/noto/NotoSans-BoldItalic.woff") format("woff");
 }
 
-/*@font-face {
-  font-family: "ralewaylight";
+font-family: "raleway";
   font-style: normal;
   font-weight: normal;
-  src: local("ralewaylight"), local("ralewaylight"), url("../assets/fonts/raleway/raleway-light-webfont.woff") format("woff");
-}
-
-@font-face {
-  font-family: "ralewaylight_italic";
-  font-style: italic;
-  font-weight: normal;
-  src: local("ralewaylight_italic"), local("ralewaylight_italic"), url("../assets/fonts/raleway/raleway-lightitalic-webfont.woff") format("woff");
-}
-
-@font-face {
-  font-family: "raleway";
-  font-style: normal;
-  font-weight: normal;
-  src: local("ralewayitalic"), local("ralewayitalic"), url("../assets/fonts/raleway/raleway-italic-webfont.woff") format("woff");
-}
-
-@font-face {
-  font-family: "raleway";
-  font-style: normal;
-  font-weight: normal;
-  src: local("ralewaymedium"), local("ralewaymedium"), url("../assets/fonts/raleway/raleway-medium-webfont.woff") format("woff");
-}
-
-@font-face {
-  font-family: "raleway";
-  font-style: normal;
-  font-weight: normal;
-  src: local("ralewaymedium_italic"), local("ralewaymedium_italic"), url("../assets/fonts/raleway/raleway-mediumitalic-webfont.woff") format("woff");
-}
-
-@font-face {
-  font-family: "raleway";
-  font-style: normal;
-  font-weight: normal;
-  src: local("ralewaybold"), local("ralewaybold"), url("../assets/fonts/raleway/raleway-bold-webfont.woff2.woff") format("woff");
-}
-
-@font-face {
-  font-family: "raleway";
-  font-style: normal;
-  font-weight: normal;
-  src: local("ralewaybold_italic"), local("ralewaybold_italic"), url("../assets/fonts/raleway/raleway-bolditalic-webfont.woff") format("woff");
-}*/
-@font-face {
-  font-family: "raleway";
-  font-style: normal;
-  font-weight: normal;
-  src: local("ralewayregular"), local("ralewayregular"), url("../assets/fonts/raleway/raleway-regular-webfont.woff") format("woff");
-}
+  src: local("ralewayregular"), local("ralewayregular"), url("#{$font-path}/raleway/raleway-regular-webfont.woff") format("woff");
+  src: local("Raleway-Regular"), local("ralewayregular"), url("#{$font-path}/raleway/Raleway-Regular.ttf") format("truetype"), url("#{$font-path}/raleway/raleway-regular-webfont.eot") format("embeded-opentype"), url("#{$font-path}/raleway/Raleway-Regular.otf") format("opentype"), url("#{$font-path}/raleway/raleway-regular-webfont.svg") format("svg");
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
