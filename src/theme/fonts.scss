@@ -119,59 +119,10 @@
 
 // Raleway.
 
-/*@font-face {
-  font-family: "ralewaylight";
-  font-style: normal;
-  font-weight: normal;
-  src: local("ralewaylight"), local("ralewaylight"), url("#{$font-path}/raleway/raleway-light-webfont.woff") format("woff");
-}
-
-@font-face {
-  font-family: "ralewaylight_italic";
-  font-style: italic;
-  font-weight: normal;
-  src: local("ralewaylight_italic"), local("ralewaylight_italic"), url("#{$font-path}/raleway/raleway-lightitalic-webfont.woff") format("woff");
-}
-
-@font-face {
-  font-family: "raleway";
-  font-style: normal;
-  font-weight: normal;
-  src: local("ralewayitalic"), local("ralewayitalic"), url("#{$font-path}/raleway/raleway-italic-webfont.woff") format("woff");
-}
-
-@font-face {
-  font-family: "raleway";
-  font-style: normal;
-  font-weight: normal;
-  src: local("ralewaymedium"), local("ralewaymedium"), url("#{$font-path}/raleway/raleway-medium-webfont.woff") format("woff");
-}
-
-@font-face {
-  font-family: "raleway";
-  font-style: normal;
-  font-weight: normal;
-  src: local("ralewaymedium_italic"), local("ralewaymedium_italic"), url("#{$font-path}/raleway/raleway-mediumitalic-webfont.woff") format("woff");
-}
-
-@font-face {
-  font-family: "raleway";
-  font-style: normal;
-  font-weight: normal;
-  src: local("ralewaybold"), local("ralewaybold"), url("#{$font-path}/raleway/raleway-bold-webfont.woff2.woff") format("woff");
-}
-
-@font-face {
-  font-family: "raleway";
-  font-style: normal;
-  font-weight: normal;
-  src: local("ralewaybold_italic"), local("ralewaybold_italic"), url("#{$font-path}/raleway/raleway-bolditalic-webfont.woff") format("woff");
-}*/
-
-@font-face {
+  @font-face {
   font-family: "raleway";
   font-style: normal;
   font-weight: normal;
   src: local("ralewayregular"), local("ralewayregular"), url("#{$font-path}/raleway/raleway-regular-webfont.woff") format("woff");
-  src: local("ralewayregular"), local("ralewayregular"), url("#{$font-path}/raleway/Raleway-Regular.ttf") format("truetype"), url("#{$font-path}/raleway/raleway-regular-webfont.eot") format("embeded-opentype");
+  src: local("Raleway-Regular"), local("ralewayregular"), url("#{$font-path}/raleway/Raleway-Regular.ttf") format("truetype"), url("#{$font-path}/raleway/raleway-regular-webfont.eot") format("embeded-opentype");
 }
