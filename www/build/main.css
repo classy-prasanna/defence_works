@@ -3927,21 +3927,6 @@ ion-icon::before {
 }
 
 
-@font-face {
-  font-family: "montserrat";
-  font-style: normal;
-  font-weight: normal;
-  
-  src: local("montserrat"), local("montserrat"),
-  url("../assets/montserrat/montserrat-regular-webfont.woff") format("woff"), url("../assets/montserrat/montserrat-regular-webfont.woff") format("woff2");
-  
-  src: local("montserrat-regular-webfont"), local("montserrat"),
-  url("../assets/montserrat/montserrat-regular-webfont.ttf") format("truetype"),
-  url("../assets/montserrat/montserrat-regular-webfont.eot") format("embeded-opentype"),
-  url("../assets/montserrat/montserrat-regular-webfont.otf") format("opentype"),
-  url("../assets/montserrat/montserrat-regular-webfont.svg") format("svg");
-}
-
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
