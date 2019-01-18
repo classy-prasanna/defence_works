@@ -120,8 +120,8 @@
 // Raleway.
 
 @font-face {
-  font-family: "raleway";
+  font-family: "ralewayregular";
   font-style: normal;
   font-weight: normal;
-  src: local("raleway"), local("raleway-regular"),url("#{$font-path}/raleway/raleway-regular.ttf") format("truetype");
+  src: local("ralewayregular"), local("ralewayregular"), url("#{$font-path}/raleway/raleway-regular-webfont.ttf") format("truetype");
 }
