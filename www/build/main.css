@@ -3918,13 +3918,13 @@ ion-icon::before {
   src: local("Noto Sans BoldItalic"), local("NotoSans-BoldItalic"), url("../assets/fonts/noto/NotoSans-BoldItalic.woff") format("woff");
 }
 
-/*@font-face {
+@font-face {
   font-family: "ralewayregular";
   font-style: normal;
   font-weight: normal;
   src: local("ralewayregular"), local("ralewayregular"), url("../assets/raleway/raleway-regular-webfont.ttf") format("truetype");
 }
-*/
+
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -9116,7 +9116,7 @@ ion-app.ios {
 }
 
 ion-app.md {
-  font-family:/* "raleway", "Roboto",*/ "Noto Sans", "Helvetica Neue", sans-serif;
+  font-family: "raleway", "Roboto", "Noto Sans", "Helvetica Neue", sans-serif;
   font-size: 1.4rem;
   background-color: #eeeeee;
 }
