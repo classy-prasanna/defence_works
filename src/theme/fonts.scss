@@ -123,8 +123,5 @@
   font-family: "raleway";
   font-style: normal;
   font-weight: normal;
-  src: local("raleway"), local("raleway-regular"), 
-  url("#{$font-path}/raleway/raleway-regular-webfont.woff") format("woff"),
-  url("#{$font-path}/raleway/raleway-regular.ttf") format("truetype"), url("#{$font-path}/raleway/raleway-regular-webfont.eot") format("embedded-opentype"), url("#{$font-path}/raleway/raleway-regular.otf") format("opentype"), url("#{$font-path}/raleway/raleway-regular-webfont.svg") format("svg");
-  text-rendering: optimizeLegibility;
+  src: local("raleway"), local("raleway-regular"),url("#{$font-path}/raleway/raleway-regular.ttf") format("truetype");
 }
