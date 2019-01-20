@@ -123,5 +123,6 @@
   font-family: "ralewayregular";
   font-style: normal;
   font-weight: normal;
-  src: local("ralewayregular"), local("ralewayregular"), url("#{$font-path}/raleway/raleway-regular-webfont.woff") format("woff"), url("#{$font-path}/raleway/raleway-regular-webfont.ttf") format("truetype");
+  src: local("ralewayregular"), local("raleway-regular"), url("#{$font-path}/raleway/raleway-regular.ttf") format("truetype"),
+  url("#{$font-path}/raleway/raleway-regular-webfont.woff") format("woff");
 }
