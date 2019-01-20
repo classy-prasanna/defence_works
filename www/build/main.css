@@ -35,6 +35,10 @@ ion-app.app-root ion-select .select-icon .select-icon-inner {
   color: #000000 !important;
 }
 
+ion-app.ios {
+  font-family: "ralewayregular", "Helvetica Neue", "Roboto", sans-serif !important;
+}
+
 .ion-ios-add:before {
   content: "\f102";
 }
@@ -3877,7 +3881,7 @@ ion-icon::before {
 }
 
 @font-face {
-  font-family: "Noto Sans";
+  font-family: "  ";
   font-style: normal;
   font-weight: 400;
   src: local("Noto Sans"), local("NotoSans-Regular"), url("../assets/fonts/noto/NotoSans-Regular.woff") format("woff");
