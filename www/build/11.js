@@ -1,6 +1,6 @@
 webpackJsonp([11],{
 
-/***/ 1863:
+/***/ 1864:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9,7 +9,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about__ = __webpack_require__(1984);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about__ = __webpack_require__(1985);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(387);
@@ -63,7 +63,7 @@ var CoreUserAboutPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 1984:
+/***/ 1985:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

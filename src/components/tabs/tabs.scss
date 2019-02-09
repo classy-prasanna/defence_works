@@ -167,3 +167,6 @@ ion-app.app-root.ios, ion-app.app-root.md, ion-app.app-root.wp {
         height: 100% !important;
     }
 }
+ion-app.app-root.ios .core-tabs-bar a.tab-slide span {
+    font-weight: bold;
+}
