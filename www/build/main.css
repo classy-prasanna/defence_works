@@ -43,6 +43,26 @@ ion-badge {
   white-space: normal !important;
 }
 
+.item-md h1 {
+  font-weight: bold !important;
+}
+
+.item-md h2 {
+  font-weight: bold !important;
+}
+
+.item-md h3 {
+  font-weight: bold !important;
+}
+
+.item-md p {
+  color: #000000 !important;
+}
+
+.toolbar-title-md {
+  font-weight: bold !important;
+}
+
 .ion-ios-add:before {
   content: "\f102";
 }
@@ -49574,6 +49594,7 @@ ion-app.app-root .core-tabs-bar a.tab-slide span {
   display: block;
   width: 100%;
   line-height: 1.2em;
+  font-weight: bold;
 }
 
 ion-app.app-root .core-tabs-bar a.tab-slide[aria-selected=true] {
