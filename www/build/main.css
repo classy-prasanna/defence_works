@@ -83,6 +83,14 @@ ion-app.ios .toolbar-title-md {
   font-weight: bold !important;
 }
 
+.item-ios h2 {
+  font-weight: bold !important;
+}
+
+.back-button-text {
+  font-weight: bold !important;
+}
+
 .ion-ios-add:before {
   content: "\f102";
 }
